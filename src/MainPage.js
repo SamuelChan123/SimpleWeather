@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Link} from 'react-router-dom';
+import Button from '@material-ui/core/Button';
 
 function MainPage() {
   return (
@@ -11,15 +12,12 @@ function MainPage() {
         <p>
           My web app!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <Link to='/profile'>Profile page</Link>
+        <Link to='/profile'>
+        <Button variant="contained" color="primary">
+          Profile page
 
-        </a>
+          </Button>
+        </Link>
       </header>
 
     </div>
