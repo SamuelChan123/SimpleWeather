@@ -10,11 +10,11 @@ function MainPage() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          My web app!
+          My weather web app!
         </p>
         <Link to='/profile'>
         <Button variant="contained" color="primary">
-          Profile page
+         Durham Weather
 
           </Button>
         </Link>
