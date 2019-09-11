@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.4.0",
     "firebase": "^6.6.0",
+    "formik": "^1.5.8",
     "material-kit-react": "^1.8.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
