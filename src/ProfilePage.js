@@ -9,7 +9,7 @@ class ProfilePage extends Component {
     super();
     let apiKey = '20270b28015066fcb62767907b86785f';
     let current = 'durham,us';
-    this.url = `http://api.openweathermap.org/data/2.5/weather?q=${current}&appid=${apiKey}`;
+    this.url = `https://api.openweathermap.org/data/2.5/weather?q=${current}&appid=${apiKey}`;
     this.state = {
       city: "",
       weather: "",
@@ -41,7 +41,7 @@ class ProfilePage extends Component {
             {this.state.weather} for {this.state.city}
           </div>
 
-          <img src={`http://openweathermap.org/img/wn/${this.state.icon}@2x.png`}>
+          <img src={`https://openweathermap.org/img/wn/${this.state.icon}@2x.png`}>
           </img>
           <br/>
 
