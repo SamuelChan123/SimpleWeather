@@ -1,7 +1,7 @@
 # warmup_spike
 
 Basic project to interact with data contained in a remote data source.
-
+Deployed: https://spikeproject.herokuapp.com/
 
 Name: Samuel Chan
 
