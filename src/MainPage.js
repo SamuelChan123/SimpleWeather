@@ -13,15 +13,15 @@ function MainPage() {
           The Weather App for Your Location
         </p>
 
+        <Link to='/profile'>
+        <Button variant="contained" color="primary">
+         Durham Weather
+
+          </Button>
+        </Link>
+
     </header>
 
-    <FormControl>
-<InputLabel htmlFor="my-input">Zip Code</InputLabel>
-<Input id="my-input" aria-describedby="my-helper-text" />
- <Link to='/profile'>
-   <Input type="submit" value="Get Weather" />
- </Link>
-</FormControl>
 
 
     </div>
