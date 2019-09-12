@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './sun.jpg';
+import logo from './sun.png';
 import './App.css';
 import {Link} from 'react-router-dom';
 import { FormControl, Button, Input, InputLabel, FormHelperText } from '@material-ui/core';
